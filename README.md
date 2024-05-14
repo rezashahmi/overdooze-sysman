@@ -1,7 +1,12 @@
 # overdooze-sysman
-https://umpedumy-my.sharepoint.com/:w:/g/personal/tg21027_student_umpsa_edu_my/Ea6XilLVHbZPsLvOMnfvUjkB7n7Xqrf3a_YMZOB6OyelsQ?e=aHAtLY
 
-## Medicine Management 
+Proposal link is [here](https://umpedumy-my.sharepoint.com/:w:/g/personal/tg21027_student_umpsa_edu_my/Ea6XilLVHbZPsLvOMnfvUjkB7n7Xqrf3a_YMZOB6OyelsQ?e=aHAtLY)
+
+Link TO UI design is at [here](https://www.figma.com/design/82uZVEZAyQss5nNs96qjg4/Untitled?m=dev&node-id=0%3A1&t=xPZehtkLVWTyN9U4-1)
+
+
+## Functionality Requirements
+### Medicine Management 
 
 1. The system should be able to add, update, delete, and view medicine records. 
 
