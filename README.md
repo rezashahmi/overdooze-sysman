@@ -3,8 +3,8 @@ https://umpedumy-my.sharepoint.com/:w:/g/personal/tg21027_student_umpsa_edu_my/E
 
 ## Medicine Management 
 
-The system should be able to add, update, delete, and view medicine records. 
+1. The system should be able to add, update, delete, and view medicine records. 
 
-The system should be able track the quantity of each medicine. 
+2. The system should be able track the quantity of each medicine. 
 
-The system should be able to alert when medicines are near their expiry date. 
+3. The system should be able to alert when medicines are near their expiry date. 
