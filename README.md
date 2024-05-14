@@ -15,5 +15,15 @@ Link TO UI design is at [here](https://www.figma.com/design/82uZVEZAyQss5nNs96qj
 3. The system should be able to alert when medicines are near their expiry date. 
 
 
+## Non Functionality Requirements
+
+1. Performance: The system should respond quickly to user requests.
+   
+2. Security: The system should securely store sensitive data such as customer information.
+   
+3. eliability: The system should be able to continue operation, even at a reduced level, not failing completely when some part of the system fails.
+
+
+
 ## Ref
 - [ClearlyInventory](https://clearlyinventory.com/)
