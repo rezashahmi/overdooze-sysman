@@ -17,13 +17,16 @@ Link TO UI design is at [here](https://www.figma.com/design/82uZVEZAyQss5nNs96qj
 
 ## Non Functionality Requirements
 
-1. Performance: The system should respond quickly to user requests.
+- Performance: The system should respond quickly to user requests.
    
-2. Security: The system should securely store sensitive data such as customer information.
+- Security: The system should securely store sensitive data such as customer information.
    
-3. eliability: The system should be able to continue operation, even at a reduced level, not failing completely when some part of the system fails.
+- eliability: The system should be able to continue operation, even at a reduced level, not failing completely when some part of the system fails.
 
 
 
 ## Ref
 - [ClearlyInventory](https://clearlyinventory.com/)
+
+##Overdooze Logo
+- [Image 1](https://copilot.microsoft.com/images/create/a-logo-that-combines-elements-of-medicine-and-slee/1-6642de6f179f4e678646dad3a3ee9e14?id=YkKyRSfr%2f0QDkNcLecWOlA%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG1.rMG1zockodOpHD90unh4&FORM=SYDBIC)
