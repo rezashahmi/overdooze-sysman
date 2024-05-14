@@ -8,11 +8,11 @@ Link TO UI design is at [here](https://www.figma.com/design/82uZVEZAyQss5nNs96qj
 ## Functionality Requirements
 ### Medicine Management 
 
-1. The system should be able to add, update, delete, and view medicine records. 
+- The system should be able to add, update, delete, and view medicine records. 
 
-2. The system should be able track the quantity of each medicine. 
+- The system should be able track the quantity of each medicine. 
 
-3. The system should be able to alert when medicines are near their expiry date. 
+- The system should be able to alert when medicines are near their expiry date. 
 
 
 ## Ref
