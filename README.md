@@ -12,7 +12,13 @@ Link TO UI design is at [here](https://www.figma.com/design/82uZVEZAyQss5nNs96qj
 
 - The system should be able track the quantity of each medicine. 
 
-- The system should be able to alert when medicines are near their expiry date. 
+- The system should be able to alert when medicines are near their expiry date.
+
+### Accessibility 
+
+- The system should provide different levels of access to users based on their role. 
+
+- The system should track and log all actions performed in the system. 
 
 
 ## Non Functionality Requirements
