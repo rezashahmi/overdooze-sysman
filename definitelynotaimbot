@@ -1,0 +1,59 @@
+//pip install opencv-python pyautogui keyboard numpy
+
+import cv2
+import numpy as np
+import pyautogui
+import keyboard
+from time import sleep
+
+# Function to detect the red outline and find a point inside it
+def find_point_inside_red_outline():
+    # Take a screenshot
+    screenshot = pyautogui.screenshot()
+    screenshot_np = np.array(screenshot)
+    screenshot_np = cv2.cvtColor(screenshot_np, cv2.COLOR_RGB2BGR)
+
+    # Convert the image to HSV color space
+    hsv = cv2.cvtColor(screenshot_np, cv2.COLOR_BGR2HSV)
+    # Define the range of red color in HSV
+    lower_red = np.array([0, 120, 70])
+    upper_red = np.array([10, 255, 255])
+    lower_red2 = np.array([170, 120, 70])
+    upper_red2 = np.array([180, 255, 255])
+    # Create masks for red color
+    mask1 = cv2.inRange(hsv, lower_red, upper_red)
+    mask2 = cv2.inRange(hsv, lower_red2, upper_red2)
+    # Combine the masks
+    mask = mask1 + mask2
+
+    # Find contours in the mask
+    contours, _ = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    if contours:
+        # Assume the largest contour is the red outline
+        largest_contour = max(contours, key=cv2.contourArea)
+        # Calculate the extreme points
+        leftmost = tuple(largest_contour[largest_contour[:, :, 0].argmin()][0])
+        rightmost = tuple(largest_contour[largest_contour[:, :, 0].argmax()][0])
+        topmost = tuple(largest_contour[largest_contour[:, :, 1].argmin()][0])
+        bottommost = tuple(largest_contour[largest_contour[:, :, 1].argmax()][0])
+
+        # Find a central point within the outline
+        center_x = (leftmost[0] + rightmost[0]) // 2
+        center_y = (topmost[1] + bottommost[1]) // 2
+        return center_x, center_y
+    return None, None
+
+# Main loop
+while True:
+    # If 'Shift' key is pressed
+    if keyboard.is_pressed('shift'):
+        x, y = find_point_inside_red_outline()
+        if x is not None and y is not None:
+            # Lock the cursor on the point inside the red outline
+            pyautogui.moveTo(x, y)
+            while keyboard.is_pressed('shift'):
+                # Keep the cursor on the point while 'Shift' is held down
+                sleep(0.01)  # Sleep to prevent high CPU usage
+    else:
+        # Free the mouse when 'Shift' is released
+        sleep(0.1)  # Sleep to prevent high CPU usage
