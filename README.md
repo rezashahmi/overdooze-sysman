@@ -2,7 +2,7 @@
 
 Proposal link is [here](https://umpedumy-my.sharepoint.com/:w:/g/personal/tg21027_student_umpsa_edu_my/Ea6XilLVHbZPsLvOMnfvUjkB7n7Xqrf3a_YMZOB6OyelsQ?e=aHAtLY)
 
-Link TO UI design is at [here](https://www.figma.com/design/82uZVEZAyQss5nNs96qjg4/Untitled?m=dev&node-id=0%3A1&t=xPZehtkLVWTyN9U4-1)
+Link to UI design is at [here](https://www.figma.com/design/82uZVEZAyQss5nNs96qjg4/Untitled?m=dev&node-id=0%3A1&t=xPZehtkLVWTyN9U4-1)
 
 
 ## Functionality Requirements
@@ -18,7 +18,17 @@ Link TO UI design is at [here](https://www.figma.com/design/82uZVEZAyQss5nNs96qj
 
 - The system should provide different levels of access to users based on their role. 
 
-- The system should track and log all actions performed in the system. 
+- The system should track and log all actions performed in the system.
+
+### Transaction 
+
+- The system must be able to record all sales transactions. 
+
+- The system must be able manage promotional offers and apply discounts to eligible transactions. 
+
+- The system must be able to allow customers to reserve medicines online for pickup. 
+
+- The system must be integrated with insurance providers for processing claims. 
 
 
 ## Non Functionality Requirements
@@ -27,7 +37,7 @@ Link TO UI design is at [here](https://www.figma.com/design/82uZVEZAyQss5nNs96qj
    
 - Security: The system should securely store sensitive data such as customer information.
    
-- eliability: The system should be able to continue operation, even at a reduced level, not failing completely when some part of the system fails.
+- Reliability: The system should be able to continue operation, even at a reduced level, not failing completely when some part of the system fails.
 
 
 
@@ -36,7 +46,7 @@ Link TO UI design is at [here](https://www.figma.com/design/82uZVEZAyQss5nNs96qj
 - [Zoho Inventory](https://www.zoho.com/inventory/inventory-software-demo/#/inventory/items)
 
 ## Overdooze Logo
-- [Image 1](https://copilot.microsoft.com/images/create/a-logo-that-combines-elements-of-medicine-and-slee/1-6642de6f179f4e678646dad3a3ee9e14?id=YkKyRSfr%2f0QDkNcLecWOlA%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG1.rMG1zockodOpHD90unh4&FORM=SYDBIC)
+- [Logo](https://copilot.microsoft.com/images/create/a-logo-that-combines-elements-of-medicine-and-slee/1-6642de6f179f4e678646dad3a3ee9e14?id=YkKyRSfr%2f0QDkNcLecWOlA%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG1.rMG1zockodOpHD90unh4&FORM=SYDBIC)
 
 example [link_1](http://suspace.su.edu.bd/bitstream/handle/123456789/619/CSE-230124.pdf?sequence=1)
             [link_2](https://www.academia.edu/42174572/DESIGN_AND_IMPLEMENTATION_OF_AN_ONLINE_PHARMACY_MANAGEMENT_SYSTEM)
